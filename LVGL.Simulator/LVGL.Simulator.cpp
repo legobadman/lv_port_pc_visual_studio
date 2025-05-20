@@ -61,6 +61,8 @@ HWND g_display_window_handles[LVGL_SIMULATOR_MAXIMUM_DISPLAYS];
 
 extern "C" {
     void create_home_page(lv_obj_t* parent);
+    void create_notify_page(lv_obj_t* parent);
+    lv_obj_t* create_page_connected_bind_dev(lv_obj_t* parent);
 }
 
 unsigned int __stdcall lv_win32_window_thread_entrypoint(
@@ -168,7 +170,9 @@ int main()
         return -1;
     }
 
-    create_home_page(lv_scr_act());
+    //create_home_page(lv_scr_act());
+    //create_notify_page(lv_scr_act());
+    create_page_connected_bind_dev(lv_scr_act());
 
     //lv_demo_widgets();           // ok
     //lv_demo_benchmark();

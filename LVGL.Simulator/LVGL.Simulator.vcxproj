@@ -721,7 +721,15 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)lv_drivers\win32drv\win32drv.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)lv_drivers\win_drv.c" />
     <ClCompile Include="homepage.c" />
+    <ClCompile Include="img_qrcode_bind_dev.c" />
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_ascii_24.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_24.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_36.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_24.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_30.c" />
+    <ClCompile Include="notification.c" />
+    <ClCompile Include="page_connected_bind_dev.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

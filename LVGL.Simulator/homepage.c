@@ -35,7 +35,7 @@ static void create_datetime(lv_obj_t* parent)
 
     label_date = lv_label_create(cond);
     lv_label_set_text(label_date, "4月16日 周三");
-    lv_obj_set_style_text_font(label_date, &lv_font_simsun_16_cjk, 0);
+    lv_obj_set_style_text_font(label_date, &lv_font_notosanssc_regular_24, 0);
     lv_obj_set_style_text_color(label_date, lv_color_hex(0xFFFFFF), LV_PART_MAIN);
 
     label_time = lv_label_create(cond);

@@ -2051,6 +2051,24 @@
     </ClCompile>
     <ClCompile Include="LVGL.Simulator.cpp" />
     <ClCompile Include="homepage.c" />
+    <ClCompile Include="notification.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_24.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="img_qrcode_bind_dev.c" />
+    <ClCompile Include="page_connected_bind_dev.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_30.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_ascii_24.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_24.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_36.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
