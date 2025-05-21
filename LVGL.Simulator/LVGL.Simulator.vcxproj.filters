@@ -699,6 +699,7 @@
     </ClInclude>
     <ClInclude Include="lv_conf.h" />
     <ClInclude Include="lv_drv_conf.h" />
+    <ClInclude Include="round_button.h" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -2069,6 +2070,21 @@
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_36.c">
       <Filter>lvgl\src\font</Filter>
     </ClCompile>
+    <ClCompile Include="round_button.c" />
+    <ClCompile Include="img_shutdown.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_18.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="img_restart.c" />
+    <ClCompile Include="img_brightness.c" />
+    <ClCompile Include="img_checked.c" />
+    <ClCompile Include="page_aod_settings.c" />
+    <ClCompile Include="page_control_center.c" />
+    <ClCompile Include="page_shutdown_restart.c" />
+    <ClCompile Include="page_wallpaper.c" />
+    <ClCompile Include="page_shutdown_fail.c" />
+    <ClCompile Include="img_warning.c" />
+    <ClCompile Include="img_error.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

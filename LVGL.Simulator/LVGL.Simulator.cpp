@@ -63,6 +63,11 @@ extern "C" {
     void create_home_page(lv_obj_t* parent);
     void create_notify_page(lv_obj_t* parent);
     lv_obj_t* create_page_connected_bind_dev(lv_obj_t* parent);
+    void button_display_demo(lv_obj_t* parent);
+    lv_obj_t* create_page_control_center(lv_obj_t* parent);
+    lv_obj_t* create_aod_settings(lv_obj_t* parent);
+    lv_obj_t* create_page_shutdown_restart(lv_obj_t* parent);
+    lv_obj_t* create_page_shutdown_failed(lv_obj_t* parent);
 }
 
 unsigned int __stdcall lv_win32_window_thread_entrypoint(
@@ -172,7 +177,11 @@ int main()
 
     //create_home_page(lv_scr_act());
     //create_notify_page(lv_scr_act());
-    create_page_connected_bind_dev(lv_scr_act());
+    //create_page_connected_bind_dev(lv_scr_act());
+    //button_display_demo(lv_scr_act());
+    //create_page_control_center(lv_scr_act());
+    create_aod_settings(lv_scr_act());
+    //create_page_shutdown_restart(lv_scr_act());
 
     //lv_demo_widgets();           // ok
     //lv_demo_benchmark();
