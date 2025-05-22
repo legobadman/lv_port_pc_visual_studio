@@ -2052,7 +2052,7 @@
     </ClCompile>
     <ClCompile Include="LVGL.Simulator.cpp" />
     <ClCompile Include="homepage.c" />
-    <ClCompile Include="notification.c" />
+    <ClCompile Include="page_notification.c" />
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_24.c">
       <Filter>lvgl\src\font</Filter>
     </ClCompile>
@@ -2085,6 +2085,10 @@
     <ClCompile Include="page_shutdown_fail.c" />
     <ClCompile Include="img_warning.c" />
     <ClCompile Include="img_error.c" />
+    <ClCompile Include="img_nomessage.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_30.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

@@ -389,6 +389,7 @@
     LV_FONT_DECLARE(lv_font_notosanssc_regular_24) \
     LV_FONT_DECLARE(lv_font_notosanssc_regular_30) \
     LV_FONT_DECLARE(lv_font_notosanssc_medium_36) \
+    LV_FONT_DECLARE(lv_font_notosanssc_medium_30) \
     LV_FONT_DECLARE(lv_font_notosanssc_ascii_24) \
     LV_FONT_DECLARE(lv_font_notosanssc_medium_24) \
     LV_FONT_DECLARE(lv_font_notosanssc_medium_18)

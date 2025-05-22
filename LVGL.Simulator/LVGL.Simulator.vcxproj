@@ -725,6 +725,7 @@
     <ClCompile Include="img_brightness.c" />
     <ClCompile Include="img_checked.c" />
     <ClCompile Include="img_error.c" />
+    <ClCompile Include="img_nomessage.c" />
     <ClCompile Include="img_qrcode_bind_dev.c" />
     <ClCompile Include="img_restart.c" />
     <ClCompile Include="img_shutdown.c" />
@@ -733,10 +734,11 @@
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_ascii_24.c" />
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_18.c" />
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_24.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_30.c" />
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_36.c" />
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_24.c" />
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_regular_30.c" />
-    <ClCompile Include="notification.c" />
+    <ClCompile Include="page_notification.c" />
     <ClCompile Include="page_aod_settings.c" />
     <ClCompile Include="page_connected_bind_dev.c" />
     <ClCompile Include="page_control_center.c" />
