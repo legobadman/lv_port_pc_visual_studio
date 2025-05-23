@@ -21,6 +21,16 @@ static void event_handler(lv_event_t* e)
     }
 }
 
+lv_obj_t* create_column_layoutobj(lv_obj_t* parent) {
+    lv_obj_t* cond = lv_obj_create(parent);
+    lv_obj_set_layout(cond, LV_LAYOUT_FLEX);
+    lv_obj_set_flex_flow(cond, LV_FLEX_FLOW_COLUMN);
+    lv_obj_set_style_border_width(cond, 0, LV_PART_MAIN);
+    lv_obj_set_style_bg_opa(cond, LV_OPA_TRANSP, 0);
+    lv_obj_set_size(cond, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
+    return cond;
+}
+
 lv_obj_t* create_center_cond(lv_obj_t* parent) {
     lv_obj_t* cond = lv_obj_create(parent);
     lv_obj_set_layout(cond, LV_LAYOUT_FLEX);
@@ -199,7 +209,6 @@ lv_obj_t* create_brightness_slider(lv_obj_t* parent) {
     lv_obj_set_style_bg_opa(slider, 31, LV_PART_MAIN);
     lv_obj_set_style_radius(slider, LV_RADIUS_CIRCLE, LV_PART_MAIN);
 
-    // 样式设置：已填充区域
     lv_obj_set_style_bg_color(slider, lv_color_white(), LV_PART_INDICATOR);
     lv_obj_set_style_radius(slider, 0, LV_PART_INDICATOR);
 

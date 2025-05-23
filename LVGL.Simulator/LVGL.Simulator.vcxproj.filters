@@ -2089,6 +2089,22 @@
     <ClCompile Include="lvgl\src\font\lv_font_notosanssc_medium_30.c">
       <Filter>lvgl\src\font</Filter>
     </ClCompile>
+    <ClCompile Include="page_diskinfo.c" />
+    <ClCompile Include="img_sata.c" />
+    <ClCompile Include="img_disk_used.c" />
+    <ClCompile Include="..\..\Users\Ada51\Downloads\lv_font_notosanssc_medium_20.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_inter_24_regular.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_d_din_pro_medium_24.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_inter_12_regular.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="img_block_nodisk.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

@@ -392,7 +392,11 @@
     LV_FONT_DECLARE(lv_font_notosanssc_medium_30) \
     LV_FONT_DECLARE(lv_font_notosanssc_ascii_24) \
     LV_FONT_DECLARE(lv_font_notosanssc_medium_24) \
-    LV_FONT_DECLARE(lv_font_notosanssc_medium_18)
+    LV_FONT_DECLARE(lv_font_notosanssc_medium_20) \
+    LV_FONT_DECLARE(lv_font_notosanssc_medium_18) \
+    LV_FONT_DECLARE(lv_font_inter_24_regular) \
+    LV_FONT_DECLARE(lv_font_d_din_pro_medium_24) \
+    LV_FONT_DECLARE(lv_font_inter_12_regular)
 
 /*Always set a default font*/
 #define LV_FONT_DEFAULT &lv_font_montserrat_14

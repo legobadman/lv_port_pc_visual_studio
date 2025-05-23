@@ -2,7 +2,7 @@
 
 //创建一个用于居中摆放的布局组件
 extern lv_obj_t* create_center_cond(lv_obj_t* parent);
-
+extern lv_obj_t* create_column_layoutobj(lv_obj_t* parent);
 extern lv_obj_t* create_ok_button(lv_obj_t* parent, lv_coord_t size, lv_event_cb_t cb);
 extern lv_obj_t* create_button(
     lv_obj_t* parent,

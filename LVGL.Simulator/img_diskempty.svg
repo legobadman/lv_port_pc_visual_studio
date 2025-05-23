@@ -1,0 +1,20 @@
+<svg width="204" height="140" viewBox="0 0 204 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.5468 136H32.5468V137.333C32.5468 138.806 31.5021 140 30.2134 140H20.8801C19.5914 140 18.5468 138.806 18.5468 137.333V136Z" fill="#2C2C2C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M171.547 136H185.547V137.333C185.547 138.806 184.502 140 183.213 140H173.88C172.591 140 171.547 138.806 171.547 137.333V136Z" fill="#2C2C2C"/>
+<path d="M197.045 0H6.95455C3.11366 0 0 3.12253 0 6.97436V129.026C0 132.877 3.11366 136 6.95455 136H197.045C200.886 136 204 132.877 204 129.026V6.97436C204 3.12253 200.886 0 197.045 0Z" fill="url(#paint0_linear_439_35716)"/>
+<g filter="url(#filter0_i_439_35716)">
+<path d="M197.045 0H6.95455C3.11366 0 0 3.12253 0 6.97436V129.026C0 132.877 3.11366 136 6.95455 136H197.045C200.886 136 204 132.877 204 129.026V6.97436C204 3.12253 200.886 0 197.045 0Z" fill="url(#paint1_linear_439_35716)"/>
+</g>
+<path d="M192.366 6H11.6341C9.07478 6 7 8.08934 7 10.6667V113.333C7 115.911 9.07478 118 11.6341 118H192.366C194.925 118 197 115.911 197 113.333V10.6667C197 8.08934 194.925 6 192.366 6Z" fill="url(#paint2_linear_439_35716)"/>
+<g filter="url(#filter1_i_439_35716)">
+<path d="M187.684 13H16.3158C15.0368 13 14 14.0447 14 15.3333V108.667C14 109.955 15.0368 111 16.3158 111H187.684C188.963 111 190 109.955 190 108.667V15.3333C190 14.0447 188.963 13 187.684 13Z" fill="url(#paint3_linear_439_35716)"/>
+</g>
+<defs>
+<filter id="filter0_i_439_35716" x="0" y="-3.70909" width="204" height="139.709" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-5.56364"/>
+<feGaussianBlur stdDeviation="1.85455"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="
