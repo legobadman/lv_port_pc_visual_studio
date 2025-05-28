@@ -2105,6 +2105,8 @@
       <Filter>lvgl\src\font</Filter>
     </ClCompile>
     <ClCompile Include="img_block_nodisk.c" />
+    <ClCompile Include="timer_test.c" />
+    <ClCompile Include="anim_test.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

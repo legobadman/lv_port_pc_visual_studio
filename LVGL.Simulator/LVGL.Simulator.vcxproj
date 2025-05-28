@@ -722,6 +722,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)lv_drivers\win32drv\win32drv.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)lv_drivers\win_drv.c" />
     <ClCompile Include="..\..\Users\Ada51\Downloads\lv_font_notosanssc_medium_20.c" />
+    <ClCompile Include="anim_test.c" />
     <ClCompile Include="homepage.c" />
     <ClCompile Include="img_block_nodisk.c" />
     <ClCompile Include="img_brightness.c" />
@@ -754,6 +755,7 @@
     <ClCompile Include="page_shutdown_restart.c" />
     <ClCompile Include="page_wallpaper.c" />
     <ClCompile Include="round_button.c" />
+    <ClCompile Include="timer_test.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

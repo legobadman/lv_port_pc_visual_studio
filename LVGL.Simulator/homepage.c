@@ -211,7 +211,7 @@ static void create_hareware_playload(lv_obj_t* parent)
     hareware_playload(root, 0.652f, 0.403f, 0.229f);
 }
 
-void create_home_page(lv_obj_t * parent) {
+lv_obj_t* create_home_page(lv_obj_t * parent) {
     lv_obj_t* cond = lv_obj_create(parent);
     lv_obj_set_layout(cond, LV_LAYOUT_FLEX);
     lv_obj_set_style_bg_color(cond, lv_color_black(), 0);
@@ -225,4 +225,5 @@ void create_home_page(lv_obj_t * parent) {
 
     create_datetime(cond);
     create_hareware_playload(cond);
+    return cond;
 }
