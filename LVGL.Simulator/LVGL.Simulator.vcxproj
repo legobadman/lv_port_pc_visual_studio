@@ -724,6 +724,7 @@
     <ClCompile Include="..\..\Users\Ada51\Downloads\lv_font_notosanssc_medium_20.c" />
     <ClCompile Include="anim_test.c" />
     <ClCompile Include="homepage.c" />
+    <ClCompile Include="img_anim_moveleft.c" />
     <ClCompile Include="img_block_nodisk.c" />
     <ClCompile Include="img_brightness.c" />
     <ClCompile Include="img_checked.c" />

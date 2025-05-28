@@ -71,6 +71,7 @@ extern "C" {
     lv_obj_t* create_page_shutdown_failed(lv_obj_t* parent);
     void create_disk_info_page(lv_obj_t* parent);
     void test_shadow(lv_obj_t* parent, lv_obj_t* target);
+    void test_img(lv_obj_t* parent);
     void timer_demo(lv_obj_t* parent);
     void anim_test(lv_obj_t* parent);
     void create_wallpaper(lv_obj_t* parent);
@@ -181,10 +182,10 @@ int main()
         return -1;
     }
 
-    //lv_obj_t* target = create_home_page(lv_scr_act());
+    //
     //test_shadow(lv_scr_act(), target);
 
-    create_wallpaper(lv_scr_act());
+    //create_wallpaper(lv_scr_act());
 
     //create_notify_page(lv_scr_act());
     //create_page_connected_bind_dev(lv_scr_act());
@@ -193,7 +194,9 @@ int main()
     //create_disk_info_page(lv_scr_act());
     //create_message_page(lv_scr_act());
     //create_page_shutdown_restart(lv_scr_act());
-    //anim_test(lv_scr_act());
+
+    lv_obj_t* target = create_home_page(lv_scr_act());
+    test_shadow(lv_scr_act(), target);
 
     //lv_demo_widgets();           // ok
     //lv_demo_benchmark();
